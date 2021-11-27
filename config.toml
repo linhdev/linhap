@@ -1,4 +1,4 @@
-baseURL = "https://linhdev.github.io/linhap/"
+baseURL = "https://linhdev.github.io/"
 title   = "Hello Friend NG"
 languageCode = "en-us"
 theme = "hello-friend-ng"
