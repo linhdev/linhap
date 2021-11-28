@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title></title>
+    <link>https://linhdev.github.io/</link>
+    <description>Recent content on </description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 07 Nov 2021 11:39:16 +0200</lastBuildDate><atom:link href="https://linhdev.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Research Solid Principle</title>
+      <link>https://linhdev.github.io/tim-hieu-ve-nguyen-li-solid/</link>
+      <pubDate>Sun, 07 Nov 2021 11:39:16 +0200</pubDate>
+      
+      <guid>https://linhdev.github.io/tim-hieu-ve-nguyen-li-solid/</guid>
+      <description>Nguyên Lý SOLID Thần Thánh Trước khi tìm hiểu về design patterns cần phải nắm được nhưng nguyên tắc cơ bản nhất của nó, và SOLID là 5 nguyên tắc cơ bản mà ta cần phải biết với mỗi 1 chữ cái sẽ tương ứng đại diện cho 1 nguyên tắc.
+S: Single Responsibility Principle: tức là ý nghĩa của nguyên tắc này là mỗi 1 class chỉ nên đảm nhiệm 1 vai trò nhất định giả sử như là mình có 1 class là Employee trong nó đang có chức năng in ra thông tin của nhân viên mà bây h viết thêm 1 chức năng báo cáo lương của nhân viên vào trong 1 cùng 1 class đó, như thế khi nhìn vào code sẽ rất là phức tạp lúc này nên tách nó riêng là thành 2 class khác nhau: 1 class là Employee 1 class ReportSalary.</description>
+    </item>
+    
+    <item>
+      <title>Research Review of Design Pattern Mining</title>
+      <link>https://linhdev.github.io/tim-hieu-ve-design-pattern/</link>
+      <pubDate>Fri, 19 Jun 2020 07:26:15 +1300</pubDate>
+      
+      <guid>https://linhdev.github.io/tim-hieu-ve-design-pattern/</guid>
+      <description>Design pattern Có rất nhiều tiêu chí để đánh giá đâu là 1 hệ thống tốt, chẳng hạn như về phía khách hàng: phần mềm phải có giao diện thân thiện, tốc độ xử lý nhanh ko gặp lỗi or trục trặc gì trong quá trình sử dụng phần mềm, về phía kỹ thuật phần mềm tốt có thể là: dễ dàng bảo trì, nâng cấp dễ dàng quản lý triển khai thì để có được điều này việc phát triển phần mềm có thể phụ thuộc vào 1 số yếu tố sau:</description>
+    </item>
+    
+    <item>
+      <title>My Self</title>
+      <link>https://linhdev.github.io/linhap/about-me/</link>
+      <pubDate>Fri, 10 Jan 2020 00:28:38 +0000</pubDate>
+      
+      <guid>https://linhdev.github.io/linhap/about-me/</guid>
+      <description>Halloo, mình là Linh hiện tại công việc chính của mình là Backend Devloper với ngôn ngữ Java, thỉnh thoảng rảnh thì đá sang tý Devops. Và cũng đang trên con đường nghiên cứu và học tập để tiến đến vai trò của 1 SA(Solution Architect). Cũng không biết chính xác mình tạo blog này ra để làm gì nữa, có lẽ là để lưu lại các kiến thức trong quá trình mình đi làm, đi học mà mình có được hoặc cũng có thể là một vài câu chuyện về đời sống thường ngày để sau này ở một thời điểm nào nhỡ có quên thì còn vào đây đọc lại hehe.</description>
+    </item>
+    
+    <item>
+      <title>Third</title>
+      <link>https://linhdev.github.io/posts/strorystudent/</link>
+      <pubDate>Sun, 07 Oct 2018 11:39:13 +0200</pubDate>
+      
+      <guid>https://linhdev.github.io/posts/strorystudent/</guid>
+      <description>This is another post Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean semper libero quis dictum dapibus. Nulla egestas vitae augue eu rutrum. Duis ullamcorper dictum ipsum. Interdum et malesuada fames ac ante ipsum primis in faucibus. Suspendisse tortor dui, fermentum non dapibus id, volutpat non odio. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Maecenas fringilla tempus urna ac laoreet. Curabitur sed bibendum lectus.</description>
+    </item>
+    
+    <item>
+      <title>Search</title>
+      <link>https://linhdev.github.io/search/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://linhdev.github.io/search/</guid>
+      <description>Manticore Search </description>
+    </item>
+    
+  </channel>
+</rss>

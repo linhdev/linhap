@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Software design on </title>
+    <link>https://linhdev.github.io/categories/software-design/</link>
+    <description>Recent content in Software design on </description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 19 Jun 2020 07:26:15 +1300</lastBuildDate><atom:link href="https://linhdev.github.io/categories/software-design/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Research Review of Design Pattern Mining</title>
+      <link>https://linhdev.github.io/tim-hieu-ve-design-pattern/</link>
+      <pubDate>Fri, 19 Jun 2020 07:26:15 +1300</pubDate>
+      
+      <guid>https://linhdev.github.io/tim-hieu-ve-design-pattern/</guid>
+      <description>Design pattern Có rất nhiều tiêu chí để đánh giá đâu là 1 hệ thống tốt, chẳng hạn như về phía khách hàng: phần mềm phải có giao diện thân thiện, tốc độ xử lý nhanh ko gặp lỗi or trục trặc gì trong quá trình sử dụng phần mềm, về phía kỹ thuật phần mềm tốt có thể là: dễ dàng bảo trì, nâng cấp dễ dàng quản lý triển khai thì để có được điều này việc phát triển phần mềm có thể phụ thuộc vào 1 số yếu tố sau:</description>
+    </item>
+    
+  </channel>
+</rss>
