@@ -6,7 +6,16 @@
     <description>Recent content in Posts on </description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 07 Nov 2021 11:39:16 +0200</lastBuildDate><atom:link href="https://linhdev.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 04 Dec 2021 11:39:16 +0200</lastBuildDate><atom:link href="https://linhdev.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>HashMap Knowledge in Java</title>
+      <link>https://linhdev.github.io/tim-hieu-hashmap-trong-java/</link>
+      <pubDate>Sat, 04 Dec 2021 11:39:16 +0200</pubDate>
+      
+      <guid>https://linhdev.github.io/tim-hieu-hashmap-trong-java/</guid>
+      <description>Những thứ cần biết về hashmap Hôm nay là một ngày cuối tuần không phải OT, cũng giống như nhưng buổi tuần trước đó thường sẽ ngủ một giấc tới lúc hoàng hôn mới dậy(đấy là mình nghĩ thế thôi). Chả là hôm trước ở công ty thấy các bạn tts ở công ty mình đang được anh Lead đứng lớp java core đang học đến phần Collections: List, Vector, LinkedList, Set&amp;hellip; có phần riêng biệt đó là Map trong java.</description>
+    </item>
+    
     <item>
       <title>Research Solid Principle</title>
       <link>https://linhdev.github.io/tim-hieu-ve-nguyen-li-solid/</link>

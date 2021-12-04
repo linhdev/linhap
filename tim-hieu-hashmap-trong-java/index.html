@@ -6,9 +6,7 @@
   <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-  <META HTTP-EQUIV="CACHE-CONTROL" CONTENT="NO-CACHE">
-
-
+  <meta http-equiv="Cache-Control" content="public" />
  
 <!-- Enable responsiveness on mobile devices -->
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
@@ -18,24 +16,24 @@
     
     
 
-<title>Software design • Linhap</title>
+<title>HashMap Knowledge in Java • Linhap</title>
 
 
 <meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="Software design"/>
-<meta name="twitter:description" content="LinhAp Personal Blog"/>
+<meta name="twitter:title" content="HashMap Knowledge in Java"/>
+<meta name="twitter:description" content="Những thứ cần biết về hashmap Hôm nay là một ngày cuối tuần không phải OT, cũng giống như nhưng buổi tuần trước đó thường sẽ ngủ một giấc tới lúc hoàng hôn mới dậy(đấy là mình nghĩ thế thôi). Chả là hôm trước ở công ty thấy các bạn tts ở công ty mình đang được anh Lead đứng lớp java core đang học đến phần Collections: List, Vector, LinkedList, Set&hellip; có phần riêng biệt đó là Map trong java."/>
 
-<meta property="og:title" content="Software design" />
-<meta property="og:description" content="LinhAp Personal Blog" />
-<meta property="og:type" content="website" />
-<meta property="og:url" content="https://linhdev.github.io/tags/software-design/" /><meta property="og:site_name" content="Linhap" />
+<meta property="og:title" content="HashMap Knowledge in Java" />
+<meta property="og:description" content="Những thứ cần biết về hashmap Hôm nay là một ngày cuối tuần không phải OT, cũng giống như nhưng buổi tuần trước đó thường sẽ ngủ một giấc tới lúc hoàng hôn mới dậy(đấy là mình nghĩ thế thôi). Chả là hôm trước ở công ty thấy các bạn tts ở công ty mình đang được anh Lead đứng lớp java core đang học đến phần Collections: List, Vector, LinkedList, Set&hellip; có phần riêng biệt đó là Map trong java." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://linhdev.github.io/tim-hieu-hashmap-trong-java/" /><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2021-12-04T11:39:16+02:00" />
+<meta property="article:modified_time" content="2021-12-04T11:39:16+02:00" /><meta property="og:site_name" content="Linhap" />
 
 
 
 
-<link rel="canonical" href="https://linhdev.github.io/tags/software-design/" />
-<link href="https://linhdev.github.io/tags/software-design/index.xml" rel="alternate" type="application/rss+xml" title="" />
-  <link href="https://linhdev.github.io/tags/software-design/index.xml" rel="feed" type="application/rss+xml" title="" />
+<link rel="canonical" href="https://linhdev.github.io/tim-hieu-hashmap-trong-java/" />
 
 <link rel="shortcut icon" href="https://scontent.fhan14-2.fna.fbcdn.net/v/t1.6435-9/72691417_2382776388627811_9048529879649222656_n.jpg?_nc_cat=100&amp;ccb=1-5&amp;_nc_sid=09cbfe&amp;_nc_ohc=xjFRyT3cuEQAX9ilgdS&amp;_nc_ht=scontent.fhan14-2.fna&amp;oh=8efbf281fe00c7b0a87bee862589f821&amp;oe=61D1C38E" type="image/x-icon">
 <link rel="icon" href="https://scontent.fhan14-2.fna.fbcdn.net/v/t1.6435-9/72691417_2382776388627811_9048529879649222656_n.jpg?_nc_cat=100&amp;ccb=1-5&amp;_nc_sid=09cbfe&amp;_nc_ohc=xjFRyT3cuEQAX9ilgdS&amp;_nc_ht=scontent.fhan14-2.fna&amp;oh=8efbf281fe00c7b0a87bee862589f821&amp;oe=61D1C38E" type="image/x-icon">
@@ -184,182 +182,46 @@ function displaymenu() {
       <div>
         
         <div id="content" >
-          <div class="w3-content w3-card-4" >
-
-    <h1 class="w3-center">Software design</h1>
-    
-   
-
-
-
-
-
-
-
-  
-  
-
-
-  
-    
-      <div class="w3-row  w3-section">
-    
-    
-    <div class="w3-col w3-container w3-section m12 l4 ">
-      <div class="w3-card-2 w3-hover-shadow " >
-
-        
-        <div class="w3-hover-opacity thumb">
-           
-             
-              <img src="https://i.stack.imgur.com/sRa6z.png" alt="Thumbnail" />
-            
-        </div>
-        
-   
-      <header class="w3-container wraptext w3-text-indigo">
-        <h4><a href="https://linhdev.github.io/tim-hieu-hashmap-trong-java/">HashMap Knowledge in Java</a></h4>
-        
-               
-      </header>
-
-
-    <div class="w3-container wraptext w3-white">
-      <code> 2021/12/04 </code>
-      
-      <p>
-        
-        
-      
-      Hôm nay là một ngày cuối tuần không phải OT, cũng giống như nhưng buổi tuần trước đó thường sẽ ngủ một giấc tới lúc hoàng hôn mới dậy(đấy là mình nghĩ thế thôi). Chả là hôm trước ở công ty thấy các &hellip;
-      </p>
-
-    </div>
-
-     
-
-      <footer >
-        <a href="https://linhdev.github.io/tim-hieu-hashmap-trong-java/"><button class="w3-button w3-blue w3-block w3-hover-green">Read More</button></a>
-      </footer>
-    </div>
-    </div>
-    
-
-  
-    
-    
-    <div class="w3-col w3-container w3-section m12 l4 ">
-      <div class="w3-card-2 w3-hover-shadow " >
-
-        
-        <div class="w3-hover-opacity thumb">
-           
-             
-              <img src="https://www.innofied.com/wp-content/uploads/2018/12/SOLID-React-v1.0-1.jpg" alt="Thumbnail" />
-            
-        </div>
-        
-   
-      <header class="w3-container wraptext w3-text-indigo">
-        <h4><a href="https://linhdev.github.io/tim-hieu-ve-nguyen-li-solid/">Research Solid Principle</a></h4>
-        
-               
-      </header>
-
-
-    <div class="w3-container wraptext w3-white">
-      <code> 2021/11/07 </code>
-      
-      <p>
-        
-        
-      
-      Trước khi tìm hiểu về design patterns cần phải nắm được nhưng nguyên tắc cơ bản nhất của nó, và SOLID là 5 nguyên tắc cơ bản mà ta cần phải biết với mỗi 1 chữ cái sẽ tương ứng đại diện cho 1 nguyên &hellip;
-      </p>
-
-    </div>
-
-     
-
-      <footer >
-        <a href="https://linhdev.github.io/tim-hieu-ve-nguyen-li-solid/"><button class="w3-button w3-blue w3-block w3-hover-green">Read More</button></a>
-      </footer>
-    </div>
-    </div>
-    
-
-  
-    
-    
-      
-    
-    <div class="w3-col w3-container w3-section m12 l4 ">
-      <div class="w3-card-2 w3-hover-shadow " >
-
-        
           
-            
-             
-             
-                  
-                  <div class="w3-hover-opacity thumb ">
-                     
-
-                        <img src="/placeholder.svg" data-src="https://stackjava.com/wp-content/uploads/2017/12/what-is-design-pattern.jpg" alt="Thumbnail"/></div>
-                      
-                      
-                  
-            
-          
-        
-   
-      <header class="w3-container wraptext w3-text-indigo">
-        <h4><a href="https://linhdev.github.io/tim-hieu-ve-design-pattern/">Research Review of Design Pattern Mining</a></h4>
-        
-               
-      </header>
-
-
-    <div class="w3-container wraptext w3-white">
-      <code> 2020/06/19 </code>
-      
-      <p>
-        
-        
-      
-      Có rất nhiều tiêu chí để đánh giá đâu là 1 hệ thống tốt, chẳng hạn như về phía khách hàng: phần mềm phải có giao diện thân thiện, tốc độ xử lý nhanh ko gặp lỗi or trục trặc gì trong quá trình sử dụng &hellip;
-      </p>
+    <div class="w3-container w3-card-4">
+      <h1 id="những-thứ-cần-biết-về-hashmap">Những thứ cần biết về hashmap</h1>
+<p><img src="https://i.stack.imgur.com/sRa6z.png" alt="Thanks to Unsplash"></p>
+<p>Hôm nay là một ngày cuối tuần không phải OT, cũng giống như nhưng buổi tuần trước đó thường sẽ ngủ một giấc
+tới lúc hoàng hôn mới dậy(đấy là mình nghĩ thế thôi). Chả là hôm trước ở công ty thấy các bạn tts ở công ty mình đang được anh Lead đứng lớp java core đang học đến phần Collections: List, Vector, LinkedList, Set&hellip; có phần riêng biệt đó là Map trong java. Nhắc đến cái này tự nhiên lại nhớ đến 1 thời dữ dội tập tành tìm hiểủ về cái HashMap, HashTable&hellip;</p>
+<p>Mình sẽ viết ra đây 1 chút kiến thức về Map trong ngôn ngữ Java mà ngày đó mình tìm hiểu được cái đầu tiên là HashMap đi cho dễ hiểu. Nếu đã sử dụng java chắc hẳn các bạn đã nghe đâu đó việc search các phần tử trong danh sách nếu được lưu trữ trong HashMap có thể là O(1) điều này có chính xác không nếu chính xác thì
+tại sao lại như thế? Do thuật toán hay do structure của nó là key-value nên search nhanh? Why?</p>
+<p>Câu trả lời là có thể là O(1) nhưng không phải lúc nào cũng là O(1), O(1) trong trường hợp key-value đó được save ngay đầu tiên của Node. Trước hết chúng ta cần phần biết rằng nếu có 1 list các phân tử được lưu trong List thông thường và để tìm 1 element trong list đó có thể chúng ta phải duyệt hết list mới tìm được(Nếu element này ở cuối). Lúc này độ phức tạp thuật toán là O(n). Giả sử có 1 resource có data khoảng 5tr sinh viên nếu lưu 5tr sinh viên này trong list có thể sẽ phải duyệt đến sv thứ 5tr để tìm được 1 sinh viên cần search trong đấy.</p>
+<p>Không giống như ArrayList, Vector&hellip; HashMap có structure hoàn toàn khác. Đầu tiên nó lưu trữ theo Key-value(Cái này chắc hẳn ai cũng biết). Vậy thì key-value của nó được lưu như thế nào? Nó sẽ sử dụng array và cấu trúc của array này tương tự như cấu trúc trữ data của LinkedList cụ thể như sau:</p>
+<p><img src="https://static.javatpoint.com/images/core/working-of-hashmap-in-java.png" alt="Thanks to Unsplash"></p>
+<p>Có thể hiểu đơn giản là bên trong HashMap gồm 1 array có type là Node(Node&lt;K,V&gt;[] table). Giả sử ta put data
+có key: &ldquo;1&rdquo;, value:&ldquo;abc&rdquo;. Lúc này key:&ldquo;1&rdquo; sẽ được qua hàm hashCode để lâý được giá trị tương ứng với key
+này giả sử hashCode của 1 lúc này là: 2657860. Lúc này data được  lưu trong Node như sau: Node(2657860, &ldquo;1&rdquo;, &ldquo;abc&rdquo;, next). Đầu tiên là save giá trị sau khi hashCode, key, value và reference tới phần tử tiếp theo. Ủa cái này cũng lưu trữ trong mảng lại còn mất thêm bước hashcode nhanh hơn quần què nào được(Lúc mới tìm hiểu mình cũng nghĩ thế).</p>
+<p>HashMap gồm 1 array[] có Type là Node như mình đã nói ở trên. Trong array này sẽ init 16 Node(Capacity) chưa chứa data Khi put key-value vào data sẽ được phân bố đều cho các Node trong array này. Lấy lại ví dụ  ở trên nhé 5tr sinh viên thay vì save trong 1 List lúc này sẽ được chia làm 5 như vậy là mỗi List
+lúc này save khoảng 312,5K sinh viên lúc này thay vì search trong tệp 5tr kia thì ta chỉ việc tìm 1 trong
+5 List kia đúng không nào. Nhưng làm thế nào để xác được element cần tìm lưu trong List nào(1,2,3,4,5) ?
+đó là nguyên nhân mà tại sao khi put key-value thì key của phải qua hàm hashCode để lấy giá trị hash.</p>
+<p>Giả sử hash key:&ldquo;1&rdquo; có hash là: 2657860. Java dựa vào giá trị này để tìm được index (trong khoảng 0-15)
+để save data. Thế thì tính index bằng cách naò nhỉ? Index sẽ được tính theo công thức sau đây:</p>
+<pre tabindex="0"><code>Index = hashcode(Key) &amp; (n-1)                                                                       
+</code></pre><ul>
+<li>Trong đó hashCode(Key) là giá trị sau khi hashCode n là length của array(như đã đề cập ở trên mặc định  là 16).</li>
+<li>&amp; là toán tử thao tác bit(Bitwist Operators).</li>
+<li>Index = 2657860 &amp; (16-1) = 4</li>
+</ul>
+<p>Lúc này Index=4 sẽ được save và Node thứ 4 trong array. Ví dụ cụ thể hơn là lưu save thông tin của 1 sinh viên Student(&ldquo;Aman&rdquo;,19) với Key:Aman, Value:19. Hình dưới mô tả nơi lưu và cách lưu của HashMap:</p>
+<p><img src="https://static.javatpoint.com/images/core/working-of-hashmap-in-java3.png" alt="Thanks to Unsplash"></p>
+<p>Như vậy là giả sử khi ta tìm kiếm 1 sinh viên trong tệp 5tr sinh viên sử dụng HashMap để lưu trữ. Lúc này
+tệp data đã được chia nhỏ cho 5 nên chắc chắn việc tìm sẽ nhanh hơn do không phải duyệt toàn bộ sinh viên.
+Nhưng trên đời này có 1 điều chắc chắn là &ldquo;Không có gì chắc chắn cả&rdquo; nếu 5tr sinh viên rơi vào TH toàn bộ save vào cùng 1 Node thì vẫn phải duyệt 5tr sv lúc này vẫn là O(n) trường hợp 0(1) sẽ rơi vào sinh viên đó
+ở ngay đầu tiên của Node luôn(ăn ngay). Theo những gì mình biết thì trung bình HashMap tìm kiếm với độ phức tạp là O(log(n)). Như vậy tổng quan lại việc tìm kiếm nhanh hơn là do structure cũng như việc phân bố đều các element khi put vào HashMap.</p>
+<p>Có 2 yếu tố chính ảnh hưởng đến perfomance của HashMap đó là Capacity và Load Factor. Capacity chắc hẳn các bạn đã hình dung nó là cái gì rồi đúng không  như ở trên mình đã nói mặc đinh khi init HashMap mà không truyền tham số cấu hình gì thêm vào Constructor của nó thì mặc định là 16. Load Factor hay được gọi
+là hệ số tải nếu vượt quá ngưỡng 0.75 thì lúc này capacity sẽ tăng lên x2 là 32 để phục vụ cho việc phân bổ
+đều hơn tránh bị save nhiều element trên cùng 1 Node giúp cho việc tìm kiếm nhanh hơn.</p>
+<pre tabindex="0"><code>        Map&lt;String, String&gt; hash = new HashMap&lt;&gt;();
+</code></pre><p>Sau khi Put element thứ 12 vào HashMap(0,75*16) thì lúc này HashMap sẽ tự động x2 length của array(16-&gt;32).
+Chúng ta hoàn toàn có thể config được Capacity và Load Factor theo tuỳ chỉnh của mình. Nhưng đến đây các bạn có thắc mắc không tại sao Load Factor là 0,75 mà không phải là số khác. Chắc chắn sẽ có liên quan toán học và 1 yếu tố khác nữa. Mình sẽ viết ở bài viết tiếp theo.</p>
 
     </div>
-
-     
-
-      <footer >
-        <a href="https://linhdev.github.io/tim-hieu-ve-design-pattern/"><button class="w3-button w3-blue w3-block w3-hover-green">Read More</button></a>
-      </footer>
-    </div>
-    </div>
-    
-      </div>
-    
-
-   
-
-  
-  </ul>
-
-  </div>
-
-  <br>
-  <div class="w3-content" > 
-    <div class="w3-bar w3-section w3-hide-large w3-hide-medium">
-          
-    
-      
-  </div>
-  <nav class="w3-center w3-hide-small"></nav>
-</div>
-
         </div>
         
           <script>
@@ -397,6 +259,7 @@ if ('sidebar' in window && 'addPanel' in window.sidebar) {
         
            
           
+  
 
         
         
@@ -602,6 +465,11 @@ function scrollFunction() {
     
 
     <!-- allowads -->
+    
+       if (document.body.scrollTop > 2000 || document.documentElement.scrollTop > 2000) {
+          detectads();
+       } 
+
     
 }
 
